@@ -1,11 +1,11 @@
-<header class="page-hero">
+<header class="page-hero" data-reveal="fade">
   <p class="kicker">Contato</p>
   <h1>Fale com a loja pelo WhatsApp</h1>
   <p class="lead">Pedidos e consultas vão para o <?= e(SITE_PHONE_HUMAN) ?>. O formulário monta a mensagem e abre o WhatsApp no seu celular. Instagram e Facebook são os perfis da loja. A visita é em Campinas.</p>
 </header>
 
 <section class="contact">
-  <form class="zap-form" data-zap action="<?= e(wa_link()) ?>">
+  <form class="zap-form" data-zap data-reveal action="<?= e(wa_link()) ?>">
     <div class="field">
       <label for="nome">Nome</label>
       <input id="nome" name="nome" type="text" maxlength="80" autocomplete="name">
@@ -24,7 +24,7 @@
     </div>
     <button class="btn gold" type="submit">Abrir conversa no WhatsApp</button>
   </form>
-  <ul class="channels">
+  <ul class="channels" data-reveal="fade">
     <li>
       <h2>WhatsApp</h2>
       <p>Canal do pedido: modelo, acessório e bairro.</p>

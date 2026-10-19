@@ -1,8 +1,8 @@
-<header class="page-hero">
+<header class="page-hero" data-reveal="fade">
   <p class="kicker">Privacidade</p>
   <h1>O que acontece com os dados desta visita</h1>
 </header>
-<section class="prose narrow">
+<section class="prose narrow" data-reveal>
   <p>A SmartPlanet, na <?= e(SITE_STREET) ?>, bairro Campinas, São José/SC, usa este site para informar o endereço e abrir uma conversa. Não há cadastro, carrinho nem conta de cliente aqui.</p>
   <h2>Formulário e WhatsApp</h2>
   <p>O formulário de contato não envia os campos para um servidor deste site. O botão abre o WhatsApp, no número <?= e(SITE_PHONE_HUMAN) ?>, com o texto que você preencheu. A conversa segue no aplicativo do WhatsApp, como qualquer atendimento da loja.</p>

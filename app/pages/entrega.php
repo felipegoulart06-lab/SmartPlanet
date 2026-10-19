@@ -1,10 +1,10 @@
-<header class="page-hero">
+<header class="page-hero" data-reveal="fade">
   <p class="kicker">Entrega</p>
   <h1>Retirada em Campinas ou entrega combinada</h1>
   <p class="lead">A SmartPlanet está no bairro Campinas, em São José/SC. Dá para buscar a peça na loja. A entrega existe para quem não vem até aqui. Bairro, prazo e eventual taxa são confirmados no WhatsApp, antes de separar.</p>
 </header>
 
-<section class="two">
+<section class="two" data-reveal>
   <article>
     <h2>Retirar na loja</h2>
     <p><?= e(SITE_STREET) ?>, <?= e(SITE_PLACE) ?>, CEP <?= e(SITE_CEP) ?>. Referência: <?= e(SITE_REF) ?>. Quem já está em Campinas, ou vem do Kobrasol e de outros bairros de São José, costuma levar na hora.</p>
@@ -17,7 +17,7 @@
   </article>
 </section>
 
-<section class="answers" aria-labelledby="perguntas">
+<section class="answers" data-reveal="fade" aria-labelledby="perguntas">
   <h2 id="perguntas">O que a loja confirma na conversa</h2>
   <dl>
     <div>
@@ -35,7 +35,7 @@
   </dl>
 </section>
 
-<section class="note">
+<section class="note" data-reveal>
   <h2>O que mandar junto</h2>
   <p>Marca e modelo do celular, o acessório e se alguém recebe no endereço. Se a cor ou o modelo acabar entre a mensagem e a saída, a loja avisa antes de trocar a peça.</p>
   <p><a class="btn gold" href="/contato">Montar a mensagem</a></p>

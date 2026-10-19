@@ -1,10 +1,10 @@
-<header class="page-hero">
+<header class="page-hero" data-reveal="fade">
   <p class="kicker">Acessórios</p>
   <h1>Capinhas, películas, cabos e suportes</h1>
   <p class="lead">Tudo isso se consulta na SmartPlanet, em Campinas, São José/SC. Não há vitrine com preço nem estoque nesta página. A disponibilidade é a do balcão, no dia, ou a resposta do WhatsApp <?= e(SITE_PHONE_HUMAN) ?>.</p>
 </header>
 
-<section class="category" id="capinhas">
+<section class="category" id="capinhas" data-reveal>
   <div>
     <h2>Capinhas e capas para celular</h2>
     <p>Transparente, mais fechada, fina ou com apoio. O que importa é o encaixe do seu modelo: botão no lugar, câmera livre e a capa que não abre sozinha no bolso.</p>
@@ -16,7 +16,7 @@
   </div>
 </section>
 
-<section class="category" id="peliculas">
+<section class="category" id="peliculas" data-reveal="fade">
   <div>
     <h2>Películas protetoras</h2>
     <p>Tem película de tela e de lente. A peça acompanha o recorte do modelo. A loja vende a película. A aplicação na hora não está confirmada como serviço neste site. Pergunte no WhatsApp se quiser saber como é feito aí.</p>
@@ -28,7 +28,7 @@
   </div>
 </section>
 
-<section class="category" id="cabos">
+<section class="category" id="cabos" data-reveal>
   <div>
     <h2>Cabos e carregadores</h2>
     <p>Cabo de cabeceira, cabo de carro e carregador de tomada. A ponta tem que ser a do aparelho que você usa. Não tratamos cabo como se servisse em qualquer entrada.</p>
@@ -40,7 +40,7 @@
   </div>
 </section>
 
-<section class="category" id="fones">
+<section class="category" id="fones" data-reveal="fade">
   <div>
     <h2>Fones e acessórios de áudio</h2>
     <p>Fone para ligação, música ou os dois. Se o aparelho ou o carro pede um encaixe específico, isso entra na conversa. Som de um lado só muitas vezes é conector, e se descobre no teste.</p>
@@ -52,7 +52,7 @@
   </div>
 </section>
 
-<section class="category" id="suportes">
+<section class="category" id="suportes" data-reveal>
   <div>
     <h2>Suportes para carro, moto e mesa</h2>
     <p>No carro, o suporte não pode soltar na lombada nem tapar o que você precisa ver. Na moto, não pode girar no guidão. Na mesa, tem que aguentar o aparelho com a capinha que você já usa.</p>

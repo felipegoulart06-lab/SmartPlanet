@@ -44,7 +44,7 @@
         entry.target.classList.add("in");
         seen.unobserve(entry.target);
       });
-    }, { threshold: 0.16, rootMargin: "0px 0px -8% 0px" });
+    }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
     document.querySelectorAll("[data-reveal]").forEach(function (el) { seen.observe(el); });
   } else {
     document.querySelectorAll("[data-reveal]").forEach(function (el) { el.classList.add("in"); });

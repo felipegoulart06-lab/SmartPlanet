@@ -1,11 +1,11 @@
-<header class="page-hero">
+<header class="page-hero" data-reveal="fade">
   <p class="kicker">Onde estamos</p>
   <h1>Loja de acessórios para celular em São José/SC</h1>
   <p class="lead">O endereço da SmartPlanet é em Campinas, bairro de São José. Não é o município de Campinas, em São Paulo. O CEP <?= e(SITE_CEP) ?> e o nome completo da avenida evitam essa confusão no mapa.</p>
 </header>
 
 <section class="map-block">
-  <div>
+  <div data-reveal>
     <h2><?= e(SITE_STREET) ?></h2>
     <address class="nap-block">
       <strong>SmartPlanet</strong><br>
@@ -22,12 +22,12 @@
       <a class="text-link" href="/contato">Avisar que estou indo</a>
     </p>
   </div>
-  <div class="map-frame">
+  <div class="map-frame" data-reveal="photo">
     <iframe title="Mapa da SmartPlanet na Av. Josué Di Bernardi, 34, Campinas, São José/SC" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-48.6125%2C-27.6035%2C-48.5985%2C-27.5942&amp;layer=mapnik&amp;marker=-27.598923%2C-48.605613"></iframe>
   </div>
 </section>
 
-<section class="two tight">
+<section class="two tight" data-reveal="fade">
   <article>
     <h2>Este é o endereço da loja</h2>
     <p>A visita e a retirada acontecem só neste ponto, em Campinas. Quem vem do Kobrasol, do Centro de São José ou de bairros vizinhos usa o mesmo destino: <?= e(SITE_STREET) ?>.</p>

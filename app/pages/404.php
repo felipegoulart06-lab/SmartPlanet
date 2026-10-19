@@ -1,4 +1,4 @@
-<header class="page-hero">
+<header class="page-hero" data-reveal="fade">
   <p class="kicker">404</p>
   <h1>Essa página não existe</h1>
   <p class="lead">O endereço não corresponde a nenhuma seção da SmartPlanet. A loja continua em Campinas, São José/SC.</p>
