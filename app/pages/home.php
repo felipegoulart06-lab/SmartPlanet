@@ -14,8 +14,8 @@
     </dl>
   </div>
   <figure class="hero-photo">
-    <img src="/assets/img/loja.jpg" width="330" height="437" alt="Interior da SmartPlanet em Campinas, São José, com acessórios para celular expostos na parede e atendimento no balcão" fetchpriority="high">
-    <figcaption>O balcão em Campinas. O que está na parede muda conforme a reposição.</figcaption>
+    <img src="/assets/img/loja-hero.webp" width="1024" height="1012" alt="Interior da SmartPlanet, com prateleiras de capinhas, cabos, fones e carregadores" fetchpriority="high">
+    <figcaption>Interior da SmartPlanet, a Boutique do Celular.</figcaption>
   </figure>
 </section>
 
